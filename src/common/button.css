@@ -1,0 +1,19 @@
+.btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.secondary{
+    background: var(--dark);
+    color: white;
+    
+}
+.btn:hover{
+    color:greenyellow
+}
+

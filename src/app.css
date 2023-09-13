@@ -1,0 +1,39 @@
+
+:root{
+  --light : #00b8ff;
+  --dark : #00415a;
+  --medium: #00719c;
+}
+
+body {
+  --gradDark: hsl(144, 100%, 89%);
+  --gradLight: hsl(42, 94%, 76%);
+  background: linear-gradient(to bottom, var(--gradDark), var(--gradLight));
+  text-align: center;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
